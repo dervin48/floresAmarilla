@@ -1,7 +1,7 @@
 body {
   background-color: #000;
   margin: 0;
-  padding: 2rem;
+  padding: 0rem;
   height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
   display: flex;
   align-items: center; /* Centra verticalmente los elementos en el cuerpo */
@@ -23,6 +23,7 @@ body {
   animation: pulsate 2s infinite;
 }
 
+
 .text-above,
 .text-below {
     position: absolute;
@@ -31,12 +32,13 @@ body {
     font-size: 25px; /* Tamaño del texto */
 }
 
+
 .text-above {
     top: -60px; /* Ajusta la posición vertical del texto arriba de la flor */
 }
 
 .text-below {
-    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+    bottom: -100px; /* Ajusta la posición vertical del texto debajo de la flor */
 }
 @keyframes pulsate {
   0% {
