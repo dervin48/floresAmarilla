@@ -1,7 +1,7 @@
 body {
   background-color: #000;
   margin: 0;
-  padding: 1rem;
+  padding: 2;
   height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
   display: flex;
   align-items: center; /* Centra verticalmente los elementos en el cuerpo */
